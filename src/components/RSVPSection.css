@@ -1,0 +1,27 @@
+/* src/components/RSVPSection.css */
+
+.rsvp-wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .rsvp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #25d366; /* Color de WhatsApp */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .rsvp-button:hover {
+    background: #128c7e;
+  }
+  
