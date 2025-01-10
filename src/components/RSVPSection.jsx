@@ -23,7 +23,7 @@ const RSVPSection = ({ section, isActive }) => {
         transition={{ duration: 0.4, ease: 'easeInOut' }}
       >
         <div className="rsvp-wrapper">
-          <p>Confirma tu asistencia vía WhatsApp!</p>
+          <p>Confirma tu asistencia vía WhatsApp! Cambios </p>
           <a
             href={`https://wa.me/4181439861?text=Hola!%20Soy%20${encodeURIComponent(
               section.guestName
